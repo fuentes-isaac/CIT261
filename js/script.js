@@ -3,7 +3,9 @@
 **/
 
 
-//funtion to add a callback answer
+//funtion check on an element toattach to the event listener, the type
+//for thw event type to listen like load, click and callback the function
+//that received the notification.
 
  function addListener(element, type, callback) {
   if (element.addEventListener) {
@@ -13,7 +15,8 @@
   }
 }
 
-//Check if documented has been completely loaded and parsed
+//Check if documented has been completely loaded and parsed without having to wait
+//for stylesheets or images to complete the load.
 
 addListener(document, 'DOMContentLoaded', function () {
 
