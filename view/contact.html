@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head id="page_head">
+    <title>CIT261 isaacFuentes</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Inline" rel="stylesheet">
+    <script src="../js/script.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="containerMenu">
+            <div class='containerLogo'>
+                <img class="headerLogo" src="../images/banerBarber.png" alt="Varon Rojo Logo"
+                    style='max-width: 250px' />
+            </div>
+            <nav>
+                <div id="menu_button_wrapper">
+                    <div id="menu_button">
+                        Menu&nbsp;&nbsp;
+                        <div id="collapseMenu">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <ul id="menu_list">
+                    <li class="menu_page"><a href="../index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="media.html">Media</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact us</a></li>
+                </ul>
+            </nav>
+    </header>
+    <section class="clientRegistration">
+        <h1>Want to know more about our services?</h1>
+        <p>Fill the form below and we will get in touch with you.</p>
+        <form method="get">
+            First Name:<br>
+            <input name="Firstname" id="readme" class="box" type="text" required><br>
+            Last Name:<br>
+            <input name="Lastname" class="box" type="text" required><br>
+            Email Address:<br>
+            <input name="Email" class="box" type="email" required><br>
+
+            <input type="button" id="btnClick" onclick="saveInfo()" value="Register" />
+        </form>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head id="page_head">
+    <title>CIT261 isaacFuentes</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Hanalei+Fill" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rye" rel="stylesheet">
+    <script type="text/javascript" src="js/script.js"></script>
+
+</head>
+
+<body>
+
+    <header>
+        <div class="containerMenu">
+            <div class='containerLogo'>
+                <img class="headerLogo" src="images/banerBarber.png" alt="Varon Rojo Logo" style='max-width: 250px' />
+            </div>
+            <nav>
+                <div id="menu_button_wrapper">
+                    <div id="menu_button">
+                        Menu&nbsp;&nbsp;
+                        <div id="collapseMenu">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <ul id="menu_list">
+                    <li class="menu_page"><a href="#">Home</a></li>
+                    <li><a href="view/services.html">Services</a></li>
+                    <li><a href="view/media.html">Media</a></li>
+                    <li><a href="view/aboutUs.html">About Us</a></li>
+                    <li><a href="view/contact.html">Contact us</a></li>
+                </ul>
+            </nav>
+    </header>
+    <div class="mainImage">
+        <div class="mainImage-text">
+            <h1>Barber Shop</h1>
+            <p>We care how you look</p>
+        </div>
+    </div>
+    <div id="priceTable">
+        <input type="button" value="Today's promotion" onclick="titleCanvas()" />
+        <canvas id="mainText" width="400" height="100"></canvas>
+        <input type="button" value="Prices" onclick="GetPricesTable()" />
+        <hr />
+        <div id="pricesTable"></div>
+    </div>
+    <footer>
+    </footer>
+</body>
+
+</html>

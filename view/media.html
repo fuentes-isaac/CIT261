@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head id="page_head">
+    <title>CIT261 isaacFuentes</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Inline" rel="stylesheet">
+    <script src="../js/script.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="containerMenu">
+            <div class='containerLogo'>
+                <img class="headerLogo" src="../images/banerBarber.png" alt="Varon Rojo Logo"
+                    style='max-width: 250px' />
+            </div>
+            <nav>
+                <div id="menu_button_wrapper">
+                    <div id="menu_button">
+                        Menu&nbsp;&nbsp;
+                        <div id="collapseMenu">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <ul id="menu_list">
+                    <li class="menu_page"><a href="../index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="#">Media</a></li>
+                    <li><a href="aboutUs.html">About Us</a></li>
+                    <li><a href="contact.html">Contact us</a></li>
+                </ul>
+            </nav>
+    </header>
+    <h2 class="media_title">¡The best service in town!</h2>
+    <section>
+        <div>
+            <video id="myVideo" width="320" height="240" controls>
+                <source src="../media/haircutvideo.mp4" type="video/mp4" media="screen and (min-width:320px)">
+                <!-- FUNCTION TO LOAD VIDEO ON MEDIA VIEW -->
+                <script>
+                    var vid = document.getElementById("myVideo");
+                    vid.onloadstart = function () {
+                        alert("WATCH OUR VIDEO TO KNOW MORE ABOUT OUR SERVICES!");
+                    };
+                </script>
+        </div>
+        <div class='media_container'>
+            <div>
+                <img id="img_trans" class="img_transition" src="../images/nino.jpg" alt="boy haircut" height="80"
+                    width="80">
+                <p>Boy Haircut</p>
+            </div>
+            <div>
+                <img id="img_trans" class="img_transition" src="../images/adulto_small.jpg" alt="boy haircut"
+                    height="80" width="80">
+                <p>Man Haircut</p>
+            </div>
+            <div>
+                <img id="img_trans" class="img_transition" src="../images/galan.jpg" alt="boy haircut" height="80"
+                    width="80">
+                <p>Facial Exfolation</p>
+            </div>
+    </section>
+    Clik on the card below.
+    <div class="card-container">
+        <div class="card_location">
+            <div class="side"><img src="../images/location_small.jpg" alt="Barber Shop Location"></div>
+            <div class="side back">Come visit us at:
+                <p>Avenida Aztecas Mz 22 Lt 18</p>
+                <p>Coyoacán, CDMX</p>
+            </div>
+        </div>
+    </div>
+    <div class="music_container">
+        <p>We invite you to like our playlist on Spotify</p>
+        <p>Below a sample of the music you can find.</p>
+        <iframe src="https://open.spotify.com/embed/track/4BdGO1CaObRD4La9l5Zanz" width="300" height="380"
+            frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    </div>
+
+    <button class="button"><a href="contact.html">I WANT AN APPOINTMENT</a></button>
+
+</body>
+
+</html>
