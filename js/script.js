@@ -86,6 +86,7 @@ function GetPricesTable() {
   }
 
   //display the information as a table using the ID of the HTML element
+  //using the appendChild element to create the table.
 
   var dvTable = document.getElementById("pricesTable");
   dvTable.innerHTML = "";
@@ -126,6 +127,6 @@ function titleCanvas(){
 **/
 
 function saveInfo(){
-  var name = document.getElementById('readme').name;
-alert ('Thank you for Registering' + ' ' + name);
+  var value = document.getElementById('Firstname').value;
+alert ('Thank you for Registering' + ' ' + value);
 }
