@@ -3,7 +3,7 @@
 **/
 
 
-//funtion check on an element toattach to the event listener, the type
+//funtion check on an element toa ttach to the event listener, the type
 //for thw event type to listen like load, click and callback the function
 //that received the notification.
 
@@ -123,10 +123,56 @@ function titleCanvas(){
   }
 
 /**
- * Save the value entered by user and then use it to display a message
+ * Funtions to change CSS style depending on users selection.
 **/
 
 function saveInfo(){
   var value = document.getElementById('Firstname').value;
 alert ('Thank you for Registering' + ' ' + value);
 }
+
+function smallStyle() {
+  document.getElementById("ser_bund").style.color = "#001064";
+  document.getElementById("list_ser_bund").style.color = "#001064";
+  document.getElementById("list_style").style.color = "#001064";
+  document.getElementById("ser_bund").style.font = "italic bold 15px tahoma";
+  document.getElementById("list_ser_bund").style.font = "italic bold 10px tahoma";
+  document.getElementById("list_style").style.font = "italic bold 8px tahoma";
+}
+
+function mediumStyle() {
+  document.getElementById("ser_bund").style.color = "#76ff03";
+  document.getElementById("list_ser_bund").style.color = "#76ff03";
+  document.getElementById("list_style").style.color = "#76ff03";
+  document.getElementById("ser_bund").style.font = "italic bold 25px Courier";
+  document.getElementById("list_ser_bund").style.font = "italic bold 20px Courier";
+  document.getElementById("list_style").style.font = "italic bold 18px Courier";
+}
+
+function largeStyle() {
+  document.getElementById("ser_bund").style.color = "#ff5bff";
+  document.getElementById("list_ser_bund").style.color = "#ff5bff";
+  document.getElementById("list_style").style.color = "#ff5bff";
+  document.getElementById("ser_bund").style.font = "italic bold 55px Verdana";
+  document.getElementById("list_ser_bund").style.font = "italic bold 40px Verdana";
+  document.getElementById("list_style").style.font = "italic bold 38px Verdana";
+}
+
+function crazyStyle() {
+  document.getElementById("ser_bund").style.color = "#ff6f00";
+  document.getElementById("list_ser_bund").style.color = "#00c853";
+  document.getElementById("list_style").style.color = "#f50057";
+  document.getElementById("ser_bund").style.font = "bold 25px Tahoma";
+  document.getElementById("list_ser_bund").style.font = "italic bold 35px Courier";
+  document.getElementById("list_style").style.font = "italic 29px Verdana";
+}
+
+
+
+
+
+
+
+
+
+
